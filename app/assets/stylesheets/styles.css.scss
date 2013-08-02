@@ -1,0 +1,28 @@
+$baseFontFamily: Nunito, sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+$btnPrimaryBackground: #FF0000;
+$navbarBackgroundHighlight: #FFFFFF;
+$navbarBackground: #FFFFFF;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 120px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+.footer {
+
+	margin-top: 50px;
+	color: $gray;
+	a {
+		color: $gray;
+	}
+}
